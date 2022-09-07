@@ -10,8 +10,8 @@ with open('comment.txt') as comment:
         final_comments.append(comment)
         
 def auto_comment(striped_comment):
-    your_email = input("Enter the email address of your facebook ")
-    your_password = getpass.getpass("enter the password of your facebook ")
+    your_email = input("iplaypokemongo6969696969@gmail.com")
+    your_password = getpass.getpass("Aryan20069420")
     browser = webdriver.Chrome()
     browser.get("https://mbasic.facebook.com")
     
@@ -26,7 +26,7 @@ def auto_comment(striped_comment):
     button.click()
     time.sleep(2)
 
-    browser.get("https://mbasic.facebook.com/story.php?story_fbid=2556937301227415&id=100007335102460&refid=17&_ft_=mf_story_key.2556937301227415%3Atop_level_post_id.2556937301227415%3Atl_objid.2556937301227415%3Acontent_owner_id_new.100007335102460%3Aoriginal_content_id.4260380450642462%3Aoriginal_content_owner_id.172819872731894%3Athrowback_story_fbid.2556937301227415%3Astory_location.4%3Astory_attachment_style.share%3Athid.100007335102460%3A306061129499414%3A2%3A0%3A1588316399%3A-5876329860260598811&__tn__=%2AW-R")
+    browser.get("https://www.facebook.com/kowshik.banarjee/posts/pfbid0UMWJZkm4jz9T1BxbsUKHUDpoHVNP6w3kv9pJVva79Eaok1eyneJDS5qkDsjKQCN9l?notif_id=1662561783714533&notif_t=comment_mention&ref=notif")
 
     for sc in striped_comment:
         cb = browser.find_element_by_css_selector("textarea[name='comment_text']")
